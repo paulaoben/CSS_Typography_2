@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1A0019;
+    font-family: 'Trispace', sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    display: block;
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: .84;
+    color: #eabfff;
+    text-shadow: 0 17px 5px rgba(0, 0, 0, .2);
+    letter-spacing: -13px;
+    transform: skewY(-5deg);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .5), 0 -4px 0 rgba(0, 0, 0, .5);
+}
+
+.textblock1 {
+    z-index: 3;
+    background: #3c005a;
+}
+
+.textblock2 {
+    z-index: 2;
+    background: #800080;
+}
+
+.textblock3 {
+    z-index: 1;
+    background: #d580ff;
+}
+
+
